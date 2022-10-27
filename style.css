@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Public Sans', sans-serif;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    scroll-behavior: smooth;
+}
+nav{
+    margin-left: 1500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 30px;
+}
+.content{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+}
+li a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    padding: 2px;
+    border-bottom: 2px solid transparent;
+}
+li a:hover{
+    border-bottom: 2px solid black;
+    padding: 2px;
+    transition: 0.2s;
+}
+.icons{
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+    color: black;
+    font-size: 20px;
+    transition: 0.2s ease-in-out;
+}
+.icons:hover{
+    opacity: 0.5;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+}
+.icons2{
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+    color: black;
+    font-size: 30px;
+    transition: 0.2s ease-in-out;
+}
+.icons2:hover{
+    opacity: 0.6;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+}
+.section-google{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 12%;
+    align-items: center;
+    text-align: center;
+    place-items: center;
+}
+.section-google h1{
+    font-size: 100px;
+    font-weight: bold;
+}
+.search{
+    width: 600px;
+    height: 50px;
+    background-color:white;
+    border: 1px solid black;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.search i{
+    font-size: 20px;
+    color: black;
+}
+.search input{
+    flex: 1;
+    height: 40px;
+    border:none;
+    outline: none;
+    font-size: 18px;
+    padding-left: 10px;
+}
+.ca{
+    display: flex;
+    gap: 20px;
+}
+.btn{
+    display: flex;
+    gap: 20px;
+}
+.btn button{
+    background-color:	#DCDCDC;
+    padding: 10px;
+    font-size: 15px;
+    border: none;
+    border-radius: 2px;
+    border: 1px solid transparent;
+}
+button:hover{
+    border: 1px solid black;
+    cursor: pointer;
+}
+.key{
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+.key span{
+    font-size: 14px;
+}
+.key span:hover{
+    color: blue;
+    border-bottom: 1px solid blue;
+    cursor: pointer;
+}
+.fa-solid{
+    font-size: 18px;
+}
+.lang{
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.lang-text{
+    display: flex;
+    gap: 8px;
+}
+.lang-text a{
+    text-decoration: none;
+    font-size: 14px;
+    color: blue;
+}
+.lang-text a:hover{
+    border-bottom: 1px solid blue;
+}
+.footer{
+    margin-top: 330px;
+}
+.ind{
+    background-color: #DCDCDC;
+    height: 50px;
+    padding: 15px;
+}
+.ind h4{
+    font-size: 18px;
+}
+.term{
+    border-top: 1px solid black;
+    height: 50px;
+    padding: 13px;
+    display: flex;
+    gap: 1300px;
+    background-color: #DCDCDC;
+}
+.right{
+    display: flex;
+    gap: 7px;
+}
+.right a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+.right a:hover{
+    color: blue;
+    border-bottom: 1px solid blue;
+}
+.left{
+    display: flex;
+    gap: 7px;
+}
+.left a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+.left a:hover{
+    color: blue;
+    border-bottom: 1px solid blue;
+}
